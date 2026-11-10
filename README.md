@@ -6,7 +6,7 @@ It's plain HTML, CSS, and a little JavaScript. There's no framework and no build
 
 ```
 /index.html        Home
-/services.html     Services (Website & Branding, Business Services)
+/services.html     Services (Website & Branding; Business Services: Bookkeeping & Accounting, Business Setup & Advice, Insurance & Investments)
 /about.html        About Sandra
 /portfolio.html    Our Work
 /contact.html      Contact & Book an Appointment
@@ -21,6 +21,7 @@ It's plain HTML, CSS, and a little JavaScript. There's no framework and no build
 ## What I still need to provide (checklist)
 
 - [ ] **Photos**: replace the placeholder images (full list below) with real photos. Keep the same file names.
+- [ ] **Licensed Services photos**: buy the licenses for the three chosen Adobe Stock photos (IDs in the image table) and send the un-watermarked downloads. Watermarked previews can't go on the public site.
 - [ ] **Portfolio items**: for each of the 6 cards in `portfolio.html`, replace the image, `[Client Name]`, `[Type of work]`, and `[Description]`.
 - [ ] **Before & after screenshots**: `before-after-old.jpg` and `before-after-new.jpg`, plus the `[Client Name]` on the Portfolio page.
 - [ ] **FORMSPREE_ID**: set up the contact form (see below).
@@ -46,6 +47,9 @@ Every placeholder is a light box labeled with its file name. To replace one, sav
 | `sandra-with-client.jpg` | Sandra reviewing a laptop with a client at a desk | About | 1200 × 800 |
 | `before-after-old.jpg` | Screenshot of an outdated website (before) | Home + Portfolio (Before & After) | 1200 × 800 |
 | `before-after-new.jpg` | The same site after the redesign (after) | Home + Portfolio (Before & After) | 1200 × 800 |
+| `services-bookkeeping.jpg` | Laptop, calculator and financial reports (Adobe Stock 804569954) | Services (Bookkeeping & Accounting) | 1200 × 900 |
+| `services-business-setup.jpg` | Glass growth charts over reports (Adobe Stock 2179819502) | Services (Business Setup & Advice) | 1200 × 900 |
+| `services-insurance-investments.jpg` | Stacked coins with a rising arrow (Adobe Stock 2027178439) | Services (Insurance & Investments) | 1200 × 900 |
 | `portfolio-1.jpg` … `portfolio-6.jpg` | Client websites/logos on laptop and phone mockups | Portfolio (one per card) | 1200 × 900 |
 | `og-image.jpg` | The preview image shown when the site is shared on social media/text | All pages (Open Graph) | 1200 × 630 |
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser tab icon, made from the logo | All pages | 48 / 32 / 180 px |

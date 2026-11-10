@@ -393,3 +393,16 @@ fieldset { border: 0; padding: 0; margin: 0 0 18px; }
 .footer-links { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .footer-social-ph { border: 1px dashed rgba(242, 182, 109, .7); border-radius: 8px; padding: 10px 12px; font-size: .88rem; color: #E6D5BE; }
 .footer-bottom { border-top: 1px solid rgba(255, 255, 255, .12); margin-top: 48px; padding-top: 22px; font-size: .88rem; color: #AEB8C4; }
+
+/* ---------- Services page: business service groups ---------- */
+.section-tight-bottom { padding-bottom: 0; }
+.section-tight-top { padding-top: 0; }
+@media (min-width: 900px) { .section-tight-bottom { padding-bottom: 8px; } .section-tight-top { padding-top: 56px; } }
+.center-actions .lead { margin: 0 auto 20px; }
+.jump-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; }
+.jump-links a { display: inline-block; padding: 8px 16px; border: 1px solid var(--line); border-radius: 999px; background: var(--white); color: var(--plum); font-weight: 600; font-size: .95rem; text-decoration: none; }
+.jump-links a:hover, .jump-links a:focus-visible { border-color: var(--plum); background: var(--plum-tint); }
+.group-list { display: grid; gap: 12px; margin-top: 24px; }
+.group-list .card-compact span.small { display: block; font-size: .88rem; font-weight: 400; color: var(--muted); margin-top: 2px; }
+#bookkeeping, #business-setup, #insurance-investments { scroll-margin-top: var(--header-h); }
+.grid .card-compact span.small { display: block; font-size: .88rem; font-weight: 400; color: var(--muted); margin-top: 2px; }
