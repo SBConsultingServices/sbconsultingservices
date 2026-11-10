@@ -21,7 +21,7 @@ It's plain HTML, CSS, and a little JavaScript. There's no framework and no build
 ## What I still need to provide (checklist)
 
 - [ ] **Photos**: replace the placeholder images (full list below) with real photos. Keep the same file names.
-- [ ] **Licensed Services photos**: buy the licenses for the three chosen Adobe Stock photos (IDs in the image table) and send the un-watermarked downloads. Watermarked previews can't go on the public site.
+- [ ] **Licensed Services photos**: Bookkeeping & Accounting is done. Still needed: the licensed (un-watermarked) downloads for Business Setup & Advice (Adobe Stock 2179819502) and Insurance & Investments (Adobe Stock 2027178439). Watermarked previews can't go on the public site.
 - [ ] **Portfolio items**: for each of the 6 cards in `portfolio.html`, replace the image, `[Client Name]`, `[Type of work]`, and `[Description]`.
 - [ ] **Before & after screenshots**: `before-after-old.jpg` and `before-after-new.jpg`, plus the `[Client Name]` on the Portfolio page.
 - [ ] **FORMSPREE_ID**: set up the contact form (see below).
@@ -47,7 +47,7 @@ Every placeholder is a light box labeled with its file name. To replace one, sav
 | `sandra-with-client.jpg` | Sandra reviewing a laptop with a client at a desk | About | 1200 × 800 |
 | `before-after-old.jpg` | Screenshot of an outdated website (before) | Home + Portfolio (Before & After) | 1200 × 800 |
 | `before-after-new.jpg` | The same site after the redesign (after) | Home + Portfolio (Before & After) | 1200 × 800 |
-| `services-bookkeeping.jpg` | Laptop, calculator and financial reports (Adobe Stock 804569954) | Services (Bookkeeping & Accounting) | 1200 × 900 |
+| `services-bookkeeping.jpg` | ✅ Done: calculator, cash and financial reports (Adobe Stock 2158828666, licensed) | Services (Bookkeeping & Accounting) | 1200 × 684 |
 | `services-business-setup.jpg` | Glass growth charts over reports (Adobe Stock 2179819502) | Services (Business Setup & Advice) | 1200 × 900 |
 | `services-insurance-investments.jpg` | Stacked coins with a rising arrow (Adobe Stock 2027178439) | Services (Insurance & Investments) | 1200 × 900 |
 | `portfolio-1.jpg` … `portfolio-6.jpg` | Client websites/logos on laptop and phone mockups | Portfolio (one per card) | 1200 × 900 |
