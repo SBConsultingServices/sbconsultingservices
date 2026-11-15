@@ -41,18 +41,20 @@ Every placeholder is a light box labeled with its file name. To replace one, sav
 
 | File | What goes there | Where it appears | Suggested size |
 |---|---|---|---|
-| `hero-website-mockup.jpg` | A polished website on a laptop and phone | Home (hero), Services (Website & Branding section) | 1200 × 900 |
-| `small-business-owner.jpg` | A café, shop, or contractor owner working on a laptop | Home ("Meet Paul") | 1200 × 900 |
+| `hero-website-mockup.jpg` | Temporary free photo in place (laptop and phone). Final: a polished website on a laptop and phone | Home (hero), Services (Website & Branding section) | 1200 × 900 |
+| `small-business-owner.jpg` | Temporary free photo in place (café owner at the counter). Final: a café, shop, or contractor owner working on a laptop | Home ("Meet Paul") | 1200 × 900 |
 | `sandra-headshot.jpg` | Friendly, well-lit professional headshot of Sandra | About | 800 × 1000 (portrait) |
 | `sandra-with-client.jpg` | Sandra reviewing a laptop with a client at a desk | About | 1200 × 800 |
 | `before-after-old.jpg` | Screenshot of an outdated website (before) | Home + Portfolio (Before & After) | 1200 × 800 |
 | `before-after-new.jpg` | The same site after the redesign (after) | Home + Portfolio (Before & After) | 1200 × 800 |
 | `services-bookkeeping.jpg` | ✅ Done: calculator, cash and financial reports (Adobe Stock 2158828666, licensed) | Services (Bookkeeping & Accounting) | 1200 × 684 |
-| `services-business-setup.jpg` | Glass growth charts over reports (Adobe Stock 2179819502) | Services (Business Setup & Advice) | 1200 × 900 |
-| `services-insurance-investments.jpg` | Stacked coins with a rising arrow (Adobe Stock 2027178439) | Services (Insurance & Investments) | 1200 × 900 |
+| `services-business-setup.jpg` | Temporary free photo in place (charts and notebook). Planned: glass growth charts (Adobe Stock 2179819502) or your own photo | Services (Business Setup & Advice) | 1200 × 900 |
+| `services-insurance-investments.jpg` | Temporary free photo in place (coin stacks). Planned: stacked coins with a rising arrow (Adobe Stock 2027178439) or your own photo | Services (Insurance & Investments) | 1200 × 900 |
 | `portfolio-1.jpg` … `portfolio-6.jpg` | Client websites/logos on laptop and phone mockups | Portfolio (one per card) | 1200 × 900 |
 | `og-image.jpg` | The preview image shown when the site is shared on social media/text | All pages (Open Graph) | 1200 × 630 |
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser tab icon, made from the logo | All pages | 48 / 32 / 180 px |
+
+**Temporary free photos:** `hero-website-mockup.jpg`, `small-business-owner.jpg`, `services-business-setup.jpg` and `services-insurance-investments.jpg` currently use public-domain (CC0) photos from StockSnap.io. They are free to use commercially, with no credit required, so they can stay as long as you like. Photos of Sandra, portfolio work, and before/after screenshots stay as labeled placeholders, because a stock photo there would misrepresent who you are or who your clients are.
 
 Service icons are drawn in code (inline SVG line icons in the brand colors), so there's nothing to replace there.
 
