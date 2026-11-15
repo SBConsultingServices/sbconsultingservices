@@ -406,3 +406,12 @@ fieldset { border: 0; padding: 0; margin: 0 0 18px; }
 .group-list .card-compact span.small { display: block; font-size: .88rem; font-weight: 400; color: var(--muted); margin-top: 2px; }
 #bookkeeping, #business-setup, #insurance-investments { scroll-margin-top: var(--header-h); }
 .grid .card-compact span.small { display: block; font-size: .88rem; font-weight: 400; color: var(--muted); margin-top: 2px; }
+
+/* ---------- Web & Digital Support offering ---------- */
+@media (min-width: 760px) { .service-list { grid-template-columns: repeat(2, 1fr); } .service-list .card-wide { grid-column: 1 / -1; } }
+@media (min-width: 1000px) { .service-list { grid-template-columns: repeat(2, 1fr); } }
+.offer-list { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 8px; }
+.offer-list li { position: relative; padding-left: 26px; color: var(--text); }
+.offer-list li::before { content: ""; position: absolute; left: 0; top: .5em; width: 14px; height: 8px; border-left: 2.5px solid var(--gold); border-bottom: 2.5px solid var(--gold); transform: rotate(-45deg); transform-origin: center; margin-top: -4px; }
+@media (min-width: 760px) { .card-wide .offer-list { grid-template-columns: repeat(2, 1fr); column-gap: 32px; } }
+#web-digital { scroll-margin-top: calc(var(--header-h) + 16px); }
