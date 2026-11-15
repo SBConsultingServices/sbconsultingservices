@@ -1,6 +1,6 @@
-# Standing instructions for Claude — BraghiroliConsulting.com
+# Standing instructions for Claude — BraghiroliFinancialServices.com
 
-This is the website for Braghiroli Consulting (owner: Sandra Braghiroli). It is plain HTML, CSS and JavaScript, hosted on GitHub Pages from the `main` branch (root folder). There is no build step.
+This is the website for Braghiroli Financial Services (owner: Sandra Braghiroli). It is plain HTML, CSS and JavaScript, hosted on GitHub Pages from the `main` branch (root folder). There is no build step.
 
 Sandra is not technical. Do all GitHub work yourself and explain everything in plain, non-technical language.
 

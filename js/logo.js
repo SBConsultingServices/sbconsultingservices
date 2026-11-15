@@ -3,7 +3,7 @@
    Every page has <span class="logo" data-logo>…</span> placeholders; this
    script fills them in. To switch designs, change LOGO_STYLE below to:
      'window'   — white browser window, gold title bar, serif "B" (default)
-     'monogram' — navy "Bc" monogram badge
+     'monogram' — navy "Bf" monogram badge
      'growth'   — rising-bar growth icon
    To use a finished logo file instead, set LOGO_IMAGE to its path
    (e.g. 'images/logo.svg') and it will be used everywhere.
@@ -29,7 +29,7 @@
       '<svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">' +
         '<circle cx="24" cy="24" r="22" fill="#1C2B3A"/>' +
         '<circle cx="24" cy="24" r="18.5" fill="none" stroke="#F2B66D" stroke-width="1.2"/>' +
-        '<text x="24" y="31" text-anchor="middle" font-family="\'DM Serif Display\', Georgia, serif" font-size="20" fill="#F2B66D">Bc</text>' +
+        '<text x="24" y="31" text-anchor="middle" font-family="\'DM Serif Display\', Georgia, serif" font-size="20" fill="#F2B66D">Bf</text>' +
       '</svg>',
     growth:
       '<svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">' +
@@ -48,7 +48,7 @@
     return mark +
       '<span class="logo-text">' +
         '<span class="logo-name">Braghiroli</span>' +
-        '<span class="logo-sub">Consulting</span>' +
+        '<span class="logo-sub">Financial Services</span>' +
         (withTagline ? '<span class="logo-tagline">' + TAGLINE + '</span>' : '') +
       '</span>';
   }

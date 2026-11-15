@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Braghiroli Consulting — styles.css
+   Braghiroli Financial Services — styles.css
    Mobile-first. Colors and fonts live in :root so they are easy to change.
    ========================================================================== */
 
@@ -132,6 +132,8 @@ p { margin: 0 0 1em; }
 .logo-text { display: flex; flex-direction: column; line-height: 1; }
 .logo-name { font-family: var(--font-head); font-size: 1.6rem; color: var(--plum); line-height: 1; }
 .logo-sub { font-family: var(--font-body); font-size: .62rem; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; color: var(--navy); margin-top: 5px; }
+.logo-sub { white-space: nowrap; }
+@media (max-width: 380px) { .logo-sub { letter-spacing: .14em; font-size: .58rem; } .logo-name { font-size: 1.45rem; } }
 .logo-tagline { font-family: var(--font-body); font-size: .8rem; color: var(--muted); margin-top: 8px; letter-spacing: .02em; }
 
 /* ---------- Header & navigation ---------- */

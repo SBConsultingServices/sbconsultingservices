@@ -1,6 +1,6 @@
-# Braghiroli Consulting — BraghiroliConsulting.com
+# Braghiroli Financial Services — BraghiroliFinancialServices.com
 
-The website for Braghiroli Consulting: websites, branding, and business support for small businesses and start-ups.
+The website for Braghiroli Financial Services: websites, branding, and business support for small businesses and start-ups.
 
 It's plain HTML, CSS, and a little JavaScript. There's no framework and no build step. Edit a file, save it, and the change is live once it's pushed to GitHub.
 
@@ -96,7 +96,7 @@ with, for example:
 ### Changing the logo
 The logo is defined only in `js/logo.js`. At the top of that file:
 - `LOGO_STYLE = 'window'`: white browser window, gold title bar, serif "B" (default)
-- `LOGO_STYLE = 'monogram'`: navy "Bc" monogram badge
+- `LOGO_STYLE = 'monogram'`: navy "Bf" monogram badge
 - `LOGO_STYLE = 'growth'`: rising-bar growth icon
 - Or set `LOGO_IMAGE = 'images/logo.svg'` to use a finished logo file everywhere.
 
@@ -123,13 +123,31 @@ Then open http://localhost:8000 in your browser. Press `Ctrl+C` to stop it.
 3. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose **main** and **/ (root)**, then click **Save**.
 4. After a minute or two the site is live at `https://<your-username>.github.io/<repository-name>/`.
 
-### Pointing BraghiroliConsulting.com to it
+### Pointing BraghiroliFinancialServices.com to it (domain registered at Cloudflare)
 
-1. In **Settings → Pages → Custom domain**, enter `braghiroliconsulting.com` and click **Save**. (GitHub adds a `CNAME` file to the repo for you.)
-2. At your domain registrar (GoDaddy, Namecheap, Google/Squarespace Domains, etc.), open the DNS settings for BraghiroliConsulting.com and add:
+Do the steps in this order.
 
-   | Type | Name / Host | Value |
-   |---|---|---|
+1. **Cloudflare → DNS records.** In the Cloudflare dashboard, open **braghirolifinancialservices.com → DNS → Records** and add these 9 records. For every record, click the orange cloud so it turns **grey ("DNS only")**. GitHub can't set up the secure padlock (https) while the cloud is orange.
+
+   | Type | Name | Content / Target | Proxy status |
+   |---|---|---|---|
+   | A | `@` | `185.199.108.153` | DNS only |
+   | A | `@` | `185.199.109.153` | DNS only |
+   | A | `@` | `185.199.110.153` | DNS only |
+   | A | `@` | `185.199.111.153` | DNS only |
+   | AAAA | `@` | `2606:50c0:8000::153` | DNS only |
+   | AAAA | `@` | `2606:50c0:8001::153` | DNS only |
+   | AAAA | `@` | `2606:50c0:8002::153` | DNS only |
+   | AAAA | `@` | `2606:50c0:8003::153` | DNS only |
+   | CNAME | `www` | `sbconsultingservices.github.io` | DNS only |
+
+2. **GitHub → custom domain.** In **Settings → Pages → Custom domain**, enter `braghirolifinancialservices.com` and click **Save**. (GitHub adds a `CNAME` file to the repo for you.) The old address, sbconsultingservices.github.io/sbconsultingservices/, then forwards automatically to the new one.
+3. **Wait** from a few minutes up to 24 hours. When GitHub shows "DNS check successful", tick **Enforce HTTPS** on the same screen.
+4. Optional but recommended: in your GitHub account settings → **Pages**, [verify the domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages) so no one else can claim it.
+
+Full instructions: [GitHub Docs: Managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+---|---|---|
    | A | `@` | `185.199.108.153` |
    | A | `@` | `185.199.109.153` |
    | A | `@` | `185.199.110.153` |
