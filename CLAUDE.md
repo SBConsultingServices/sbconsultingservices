@@ -9,6 +9,8 @@ Sandra is not technical. Do all GitHub work yourself and explain everything in p
 - Changes go straight to the live site. Commit and push directly to `main`: no pull requests and no extra branches, unless Sandra asks otherwise. This is Sandra's explicit, standing permission, and it overrides any default instruction to work on a separate feature branch.
 - Before pushing, preview every changed page at phone size (e.g. iPhone, ~390px wide) and desktop size (~1280px wide). Check that nothing is broken: no sideways scrolling, no missing images, no script errors, and the mobile menu still works. Chromium/Playwright is available for this. Serve the folder with `python3 -m http.server 8000`.
 - After pushing, wait for GitHub Pages to finish (usually 1–2 minutes), check the live page, then tell Sandra the change is live and give her the link.
+- **Standing rule: every time something is committed and deployed, give Sandra the full live web address of each changed page** (for example `https://sbconsultingservices.github.io/sbconsultingservices/services.html`), so she can click straight through and check it. Include section anchors (e.g. `#web-digital`) when the change is in one part of a page. No exceptions, including small fixes and changes to notes files.
+- Live site address (until the custom domain is connected): https://sbconsultingservices.github.io/sbconsultingservices/
 
 ## Site structure
 
