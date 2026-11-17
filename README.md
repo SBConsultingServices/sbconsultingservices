@@ -125,6 +125,8 @@ Then open http://localhost:8000 in your browser. Press `Ctrl+C` to stop it.
 
 ### Pointing BraghiroliFinancialServices.com to it (domain registered at Cloudflare)
 
+> ✅ **Done (Nov 2026):** the DNS records below are set up in Cloudflare and the `CNAME` file connects the domain. The site is live at https://braghirolifinancialservices.com/. The steps are kept here for reference.
+
 Do the steps in this order.
 
 1. **Cloudflare → DNS records.** In the Cloudflare dashboard, open **braghirolifinancialservices.com → DNS → Records** and add these 9 records. For every record, click the orange cloud so it turns **grey ("DNS only")**. GitHub can't set up the secure padlock (https) while the cloud is orange.
