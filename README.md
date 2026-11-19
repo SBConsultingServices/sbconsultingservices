@@ -1,14 +1,13 @@
 # Braghiroli Financial Services — BraghiroliFinancialServices.com
 
-The website for Braghiroli Financial Services: websites, branding, and business support for small businesses and start-ups.
+The website for Braghiroli Financial Services: bookkeeping, business setup, and financial support for small businesses and start-ups.
 
 It's plain HTML, CSS, and a little JavaScript. There's no framework and no build step. Edit a file, save it, and the change is live once it's pushed to GitHub.
 
 ```
 /index.html        Home
-/services.html     Services (Website & Branding; Business Services: Bookkeeping & Accounting, Business Setup & Advice, Insurance & Investments)
+/services.html     Services (Bookkeeping & Accounting, Business Setup & Advice, Insurance & Investments)
 /about.html        About Sandra
-/portfolio.html    Our Work
 /contact.html      Contact & Book an Appointment
 /css/styles.css    All styles (brand colors and fonts are at the top, in :root)
 /js/logo.js        The logo, defined in ONE place (see "Changing the logo")
@@ -22,8 +21,6 @@ It's plain HTML, CSS, and a little JavaScript. There's no framework and no build
 
 - [ ] **Photos**: replace the placeholder images (full list below) with real photos. Keep the same file names.
 - [ ] **Licensed Services photos**: Bookkeeping & Accounting is done. Still needed: the licensed (un-watermarked) downloads for Business Setup & Advice (Adobe Stock 2179819502) and Insurance & Investments (Adobe Stock 2027178439). Watermarked previews can't go on the public site.
-- [ ] **Portfolio items**: for each of the 6 cards in `portfolio.html`, replace the image, `[Client Name]`, `[Type of work]`, and `[Description]`.
-- [ ] **Before & after screenshots**: `before-after-old.jpg` and `before-after-new.jpg`, plus the `[Client Name]` on the Portfolio page.
 - [ ] **FORMSPREE_ID**: set up the contact form (see below).
 - [ ] **BOOKING_LINK**: add your Calendly (or similar) link (see below).
 - [ ] **Social media links**: replace the `[Social media links placeholder]` box in the footer of each page.
@@ -41,20 +38,16 @@ Every placeholder is a light box labeled with its file name. To replace one, sav
 
 | File | What goes there | Where it appears | Suggested size |
 |---|---|---|---|
-| `hero-website-mockup.jpg` | Temporary free photo in place (laptop and phone). Final: a polished website on a laptop and phone | Home (hero), Services (Website & Branding section) | 1200 × 900 |
 | `small-business-owner.jpg` | Temporary free photo in place (café owner at the counter). Final: a café, shop, or contractor owner working on a laptop | Home ("Meet Paul") | 1200 × 900 |
 | `sandra-headshot.jpg` | Friendly, well-lit professional headshot of Sandra | About | 800 × 1000 (portrait) |
-| `sandra-with-client.jpg` | Sandra reviewing a laptop with a client at a desk | About | 1200 × 800 |
-| `before-after-old.jpg` | Screenshot of an outdated website (before) | Home + Portfolio (Before & After) | 1200 × 800 |
-| `before-after-new.jpg` | The same site after the redesign (after) | Home + Portfolio (Before & After) | 1200 × 800 |
-| `services-bookkeeping.jpg` | ✅ Done: calculator, cash and financial reports (Adobe Stock 2158828666, licensed) | Services (Bookkeeping & Accounting) | 1200 × 684 |
+| `sandra-with-client.jpg` | Sandra reviewing paperwork with a client at a desk | About | 1200 × 800 |
+| `services-bookkeeping.jpg` | ✅ Done: calculator, cash and financial reports (Adobe Stock 2158828666, licensed) | Home (hero) and Services (Bookkeeping & Accounting) | 1200 × 684 |
 | `services-business-setup.jpg` | Temporary free photo in place (charts and notebook). Planned: glass growth charts (Adobe Stock 2179819502) or your own photo | Services (Business Setup & Advice) | 1200 × 900 |
 | `services-insurance-investments.jpg` | Temporary free photo in place (coin stacks). Planned: stacked coins with a rising arrow (Adobe Stock 2027178439) or your own photo | Services (Insurance & Investments) | 1200 × 900 |
-| `portfolio-1.jpg` … `portfolio-6.jpg` | Client websites/logos on laptop and phone mockups | Portfolio (one per card) | 1200 × 900 |
 | `og-image.jpg` | The preview image shown when the site is shared on social media/text | All pages (Open Graph) | 1200 × 630 |
 | `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser tab icon, made from the logo | All pages | 48 / 32 / 180 px |
 
-**Temporary free photos:** `hero-website-mockup.jpg`, `small-business-owner.jpg`, `services-business-setup.jpg` and `services-insurance-investments.jpg` currently use public-domain (CC0) photos from StockSnap.io. They are free to use commercially, with no credit required, so they can stay as long as you like. Photos of Sandra, portfolio work, and before/after screenshots stay as labeled placeholders, because a stock photo there would misrepresent who you are or who your clients are.
+**Temporary free photos:** `small-business-owner.jpg`, `services-business-setup.jpg` and `services-insurance-investments.jpg` currently use public-domain (CC0) photos from StockSnap.io. They are free to use commercially, with no credit required, so they can stay as long as you like. Photos of Sandra stay as labeled placeholders, because a stock photo there would misrepresent who you are.
 
 Service icons are drawn in code (inline SVG line icons in the brand colors), so there's nothing to replace there.
 
@@ -80,7 +73,7 @@ var BOOKING_LINK = 'https://calendly.com/your-name/consultation';
 Every "Book an Appointment" / "Book a Website Consultation" button on the site will use it and open it in a new tab. Until it's set, those buttons go to the Contact page.
 
 ### Social media links
-In the footer of **each** of the 5 pages, replace:
+In the footer of **each** of the 4 pages, replace:
 ```html
 <p class="footer-social-ph">[Social media links placeholder]</p>
 ```
@@ -170,6 +163,6 @@ Full instructions: [GitHub Docs: Managing a custom domain](https://docs.github.c
 
 ## Making changes later
 
-- **Text:** edit the HTML files directly. The header and footer are repeated on each page, so update all five if you change a nav link or footer detail.
+- **Text:** edit the HTML files directly. The header and footer are repeated on each page, so update all four if you change a nav link or footer detail.
 - **Colors and fonts:** change the variables at the top of `css/styles.css`.
 - **Brand colors (Midnight Blue & Emerald):** midnight blue `#16325C`, deep navy `#0F1B2D`, emerald `#22C38E`, off-white `#F6F8FB`. Fonts: DM Serif Display (headings) and Inter (body), from Google Fonts.

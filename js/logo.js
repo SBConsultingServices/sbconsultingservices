@@ -11,7 +11,7 @@
 (function () {
   var LOGO_STYLE = 'window';
   var LOGO_IMAGE = ''; // e.g. 'images/logo.svg'
-  var TAGLINE = 'Web design · Branding · Business support';
+  var TAGLINE = 'Bookkeeping · Business setup · Financial support';
 
   var marks = {
     window:
