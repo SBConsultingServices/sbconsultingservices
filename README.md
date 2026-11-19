@@ -19,7 +19,7 @@ It's plain HTML, CSS, and a little JavaScript. There's no framework and no build
 
 ## What I still need to provide (checklist)
 
-- [ ] **Photos**: replace the placeholder images (full list below) with real photos. Keep the same file names.
+- [ ] **Photos**: headshot ✅ done. Still needed: `sandra-with-client.jpg` (Sandra working with a client). Others use temporary free photos (see the image table). Keep the same file names.
 - [ ] **Licensed Services photos**: Bookkeeping & Accounting is done. Still needed: the licensed (un-watermarked) downloads for Business Setup & Advice (Adobe Stock 2179819502) and Insurance & Investments (Adobe Stock 2027178439). Watermarked previews can't go on the public site.
 - [ ] **FORMSPREE_ID**: set up the contact form (see below).
 - [ ] **BOOKING_LINK**: add your Calendly (or similar) link (see below).
@@ -39,7 +39,7 @@ Every placeholder is a light box labeled with its file name. To replace one, sav
 | File | What goes there | Where it appears | Suggested size |
 |---|---|---|---|
 | `small-business-owner.jpg` | Temporary free photo in place (café owner at the counter). Final: a café, shop, or contractor owner working on a laptop | Home ("Meet Paul") | 1200 × 900 |
-| `sandra-headshot.jpg` | Friendly, well-lit professional headshot of Sandra | About | 800 × 1000 (portrait) |
+| `sandra-headshot.jpg` | ✅ Done: Sandra's real headshot (Nov 2026) | About | 800 × 1000 (portrait) |
 | `sandra-with-client.jpg` | Sandra reviewing paperwork with a client at a desk | About | 1200 × 800 |
 | `services-bookkeeping.jpg` | ✅ Done: calculator, cash and financial reports (Adobe Stock 2158828666, licensed) | Home (hero) and Services (Bookkeeping & Accounting) | 1200 × 684 |
 | `services-business-setup.jpg` | Temporary free photo in place (charts and notebook). Planned: glass growth charts (Adobe Stock 2179819502) or your own photo | Services (Business Setup & Advice) | 1200 × 900 |
