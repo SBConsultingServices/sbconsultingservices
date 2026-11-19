@@ -17,26 +17,26 @@
     window:
       '<svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">' +
         '<rect x="3" y="5" width="42" height="38" rx="7" fill="#FFFFFF"/>' +
-        '<path d="M3 16v-4a7 7 0 0 1 7-7h28a7 7 0 0 1 7 7v4z" fill="#F2B66D"/>' +
-        '<circle cx="10" cy="10.5" r="1.7" fill="#3B2A4A"/>' +
-        '<circle cx="15.5" cy="10.5" r="1.7" fill="#3B2A4A"/>' +
-        '<circle cx="21" cy="10.5" r="1.7" fill="#3B2A4A"/>' +
-        '<text x="24" y="38.5" text-anchor="middle" font-family="\'DM Serif Display\', Georgia, serif" font-size="23" fill="#3B2A4A">B</text>' +
-        '<rect x="3" y="5" width="42" height="38" rx="7" fill="none" stroke="#3B2A4A" stroke-width="2"/>' +
-        '<path d="M3 16h42" stroke="#3B2A4A" stroke-width="1.5"/>' +
+        '<path d="M3 16v-4a7 7 0 0 1 7-7h28a7 7 0 0 1 7 7v4z" fill="#22C38E"/>' +
+        '<circle cx="10" cy="10.5" r="1.7" fill="#16325C"/>' +
+        '<circle cx="15.5" cy="10.5" r="1.7" fill="#16325C"/>' +
+        '<circle cx="21" cy="10.5" r="1.7" fill="#16325C"/>' +
+        '<text x="24" y="38.5" text-anchor="middle" font-family="\'DM Serif Display\', Georgia, serif" font-size="23" fill="#16325C">B</text>' +
+        '<rect x="3" y="5" width="42" height="38" rx="7" fill="none" stroke="#16325C" stroke-width="2"/>' +
+        '<path d="M3 16h42" stroke="#16325C" stroke-width="1.5"/>' +
       '</svg>',
     monogram:
       '<svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">' +
-        '<circle cx="24" cy="24" r="22" fill="#1C2B3A"/>' +
-        '<circle cx="24" cy="24" r="18.5" fill="none" stroke="#F2B66D" stroke-width="1.2"/>' +
-        '<text x="24" y="31" text-anchor="middle" font-family="\'DM Serif Display\', Georgia, serif" font-size="20" fill="#F2B66D">Bf</text>' +
+        '<circle cx="24" cy="24" r="22" fill="#0F1B2D"/>' +
+        '<circle cx="24" cy="24" r="18.5" fill="none" stroke="#22C38E" stroke-width="1.2"/>' +
+        '<text x="24" y="31" text-anchor="middle" font-family="\'DM Serif Display\', Georgia, serif" font-size="20" fill="#22C38E">Bf</text>' +
       '</svg>',
     growth:
       '<svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">' +
-        '<rect x="2" y="2" width="44" height="44" rx="11" fill="#3B2A4A"/>' +
-        '<rect x="11" y="28" width="6" height="10" rx="1.5" fill="#F2B66D"/>' +
-        '<rect x="21" y="21" width="6" height="17" rx="1.5" fill="#F2B66D"/>' +
-        '<rect x="31" y="13" width="6" height="25" rx="1.5" fill="#F2B66D"/>' +
+        '<rect x="2" y="2" width="44" height="44" rx="11" fill="#16325C"/>' +
+        '<rect x="11" y="28" width="6" height="10" rx="1.5" fill="#22C38E"/>' +
+        '<rect x="21" y="21" width="6" height="17" rx="1.5" fill="#22C38E"/>' +
+        '<rect x="31" y="13" width="6" height="25" rx="1.5" fill="#22C38E"/>' +
         '<path d="M10 22l9-7 6 3 11-8" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>' +
       '</svg>'
   };

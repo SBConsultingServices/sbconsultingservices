@@ -4,17 +4,17 @@
    ========================================================================== */
 
 :root {
-  --plum: #3B2A4A;        /* primary */
-  --plum-dark: #2C1F38;
-  --plum-tint: #EFEBF2;
-  --navy: #1C2B3A;        /* secondary */
-  --gold: #F2B66D;        /* accent */
-  --gold-tint: #FCEBD3;
-  --bg: #F7F6F2;          /* soft off-white */
+  --plum: #16325C;        /* primary: midnight blue */
+  --plum-dark: #0F2342;
+  --plum-tint: #E6EDF7;
+  --navy: #0F1B2D;        /* secondary: deep navy */
+  --gold: #22C38E;        /* accent: emerald */
+  --gold-tint: #DDF7EC;
+  --bg: #F6F8FB;          /* soft cool off-white */
   --white: #FFFFFF;
-  --text: #1C2B3A;        /* body text */
+  --text: #0F1B2D;        /* body text */
   --muted: #4A5563;
-  --line: #E3E0D7;
+  --line: #DDE4EE;
 
   --font-head: "DM Serif Display", Georgia, "Times New Roman", serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
@@ -99,7 +99,7 @@ p { margin: 0 0 1em; }
 }
 .btn:hover { transform: translateY(-1px); }
 .btn-gold { background: var(--gold); color: var(--navy); }
-.btn-gold:hover { background: #EFA651; color: var(--navy); }
+.btn-gold:hover { background: #1BAE7E; color: var(--navy); }
 .btn-plum { background: var(--plum); color: #fff; }
 .btn-plum:hover { background: var(--plum-dark); color: #fff; }
 .btn-outline { border-color: var(--plum); color: var(--plum); background: transparent; }
@@ -139,7 +139,7 @@ p { margin: 0 0 1em; }
 /* ---------- Header & navigation ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(247, 246, 242, .94);
+  background: rgba(246, 248, 251, .94);
   -webkit-backdrop-filter: saturate(150%) blur(8px); backdrop-filter: saturate(150%) blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -302,13 +302,13 @@ a.card .card-more { margin-top: 16px; font-weight: 600; color: var(--plum); font
   border: 18px solid var(--gold); opacity: .9; right: -60px; top: -60px;
 }
 .cta-banner h2 { color: #fff; }
-.cta-banner p { color: #E9E3EE; max-width: 34rem; margin: 0 auto 28px; font-size: 1.1rem; }
+.cta-banner p { color: #DCE6F2; max-width: 34rem; margin: 0 auto 28px; font-size: 1.1rem; }
 @media (min-width: 900px) { .cta-banner { padding: 72px 48px; } }
 
 /* ---------- Services page ---------- */
 .feature-band { background: var(--plum); color: #fff; }
 .feature-band h2, .feature-band .eyebrow { color: #fff; }
-.feature-band .lead { color: #E9E3EE; }
+.feature-band .lead { color: #DCE6F2; }
 .feature-band .card { border: 0; }
 .feature-band .split-media img { box-shadow: 0 20px 50px rgba(0, 0, 0, .25); }
 .service-list { display: grid; gap: 16px; margin-top: 40px; }
@@ -345,7 +345,7 @@ a.card .card-more { margin-top: 16px; font-weight: 600; color: var(--plum); font
 
 .book-card { background: var(--plum); color: #fff; border-radius: var(--radius); padding: 32px 28px; }
 .book-card h2 { color: #fff; font-size: 1.8rem; }
-.book-card p { color: #E9E3EE; }
+.book-card p { color: #DCE6F2; }
 .book-card .btn { width: 100%; }
 .book-card .placeholder-note { margin-top: 16px; color: var(--navy); }
 
@@ -364,7 +364,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
   padding: 12px 14px; min-height: 48px;
 }
 textarea { min-height: 140px; resize: vertical; }
-input:focus, textarea:focus { outline: 3px solid rgba(59, 42, 74, .25); border-color: var(--plum); }
+input:focus, textarea:focus { outline: 3px solid rgba(22, 50, 92, .25); border-color: var(--plum); }
 fieldset { border: 0; padding: 0; margin: 0 0 18px; }
 .checks { display: grid; gap: 10px; }
 @media (min-width: 520px) { .checks { grid-template-columns: 1fr 1fr; } }
@@ -393,7 +393,7 @@ fieldset { border: 0; padding: 0; margin: 0 0 18px; }
 .footer-tagline { margin-top: 18px; max-width: 22rem; color: #C3CCD6; }
 .footer-title { font: 600 .78rem/1 var(--font-body); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); margin: 0 0 16px; }
 .footer-links { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.footer-social-ph { border: 1px dashed rgba(242, 182, 109, .7); border-radius: 8px; padding: 10px 12px; font-size: .88rem; color: #E6D5BE; }
+.footer-social-ph { border: 1px dashed rgba(34, 195, 142, .7); border-radius: 8px; padding: 10px 12px; font-size: .88rem; color: #CFE9DE; }
 .footer-bottom { border-top: 1px solid rgba(255, 255, 255, .12); margin-top: 48px; padding-top: 22px; font-size: .88rem; color: #AEB8C4; }
 
 /* ---------- Services page: business service groups ---------- */

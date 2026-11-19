@@ -172,4 +172,4 @@ Full instructions: [GitHub Docs: Managing a custom domain](https://docs.github.c
 
 - **Text:** edit the HTML files directly. The header and footer are repeated on each page, so update all five if you change a nav link or footer detail.
 - **Colors and fonts:** change the variables at the top of `css/styles.css`.
-- **Brand colors:** plum `#3B2A4A`, navy `#1C2B3A`, gold `#F2B66D`, off-white `#F7F6F2`. Fonts: DM Serif Display (headings) and Inter (body), from Google Fonts.
+- **Brand colors (Midnight Blue & Emerald):** midnight blue `#16325C`, deep navy `#0F1B2D`, emerald `#22C38E`, off-white `#F6F8FB`. Fonts: DM Serif Display (headings) and Inter (body), from Google Fonts.

@@ -23,9 +23,9 @@ Sandra is not technical. Do all GitHub work yourself and explain everything in p
 
 ## Branding
 
-- Colors: plum `#3B2A4A`, navy `#1C2B3A`, gold `#F2B66D`, off-white `#F7F6F2`. These are defined as variables at the top of `css/styles.css`.
+- Colors ("Midnight Blue & Emerald", chosen by Sandra Nov 2026): midnight blue `#16325C` (primary), deep navy `#0F1B2D`, emerald `#22C38E` (accent/buttons), cool off-white `#F6F8FB`. These are defined as variables at the top of `css/styles.css` (the variable names `--plum` and `--gold` are kept for the primary and accent colors). The logo colors live in `js/logo.js` and `images/favicon.svg`; regenerate `favicon-32.png`, `apple-touch-icon.png` and `og-image.jpg` when colors change.
 - Fonts: DM Serif Display for headings, Inter for body text (Google Fonts).
-- Style: clean, warm, professional, with lots of white space.
+- Style: clean, modern, eye-catching but professional, with lots of white space.
 
 ## Content rules
 
