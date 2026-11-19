@@ -73,6 +73,9 @@ var BOOKING_LINK = 'https://calendly.com/your-name/consultation';
 Every "Book an Appointment" / "Book a Website Consultation" button on the site will use it and open it in a new tab. Until it's set, those buttons go to the Contact page.
 
 ### Social media links
+
+The ready-made social media kit (profile picture, cover banners for each platform, and copy-and-paste descriptions) is in the `social-kit/` folder.
+
 In the footer of **each** of the 4 pages, replace:
 ```html
 <p class="footer-social-ph">[Social media links placeholder]</p>

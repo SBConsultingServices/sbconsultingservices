@@ -1,0 +1,51 @@
+BRAGHIROLI FINANCIAL SERVICES: SOCIAL MEDIA KIT
+Copy and paste the text below into each platform.
+
+---------------------------------------------
+BASIC DETAILS (same everywhere)
+---------------------------------------------
+Business name:  Braghiroli Financial Services
+Website:        https://braghirolifinancialservices.com
+Phone:          415-341-3674
+Email:          sdbraghiroli@gmail.com
+
+Suggested username:
+  Instagram, Facebook, LinkedIn:  braghirolifinancial
+  X (15 characters max):          BraghiroliFin
+  (If one is taken, try adding "services" or "sb", e.g. braghirolifinancialsvcs)
+
+Suggested category:
+  Google Business Profile:  Bookkeeping service
+  Facebook:                 Financial service
+  LinkedIn industry:        Accounting
+
+---------------------------------------------
+SHORT BIO (Instagram, X, Facebook intro)
+---------------------------------------------
+Bookkeeping, business setup, and financial support for small businesses and start-ups. Personal service from Sandra Braghiroli.
+
+---------------------------------------------
+LINKEDIN TAGLINE
+---------------------------------------------
+Bookkeeping, business setup, and financial support for growing small businesses and start-ups.
+
+---------------------------------------------
+LONG DESCRIPTION (LinkedIn "About", Facebook "About", Google Business description)
+---------------------------------------------
+Braghiroli Financial Services helps small businesses and start-ups keep accurate books, set up the right business structure, and plan for the future. The firm is led by Sandra Braghiroli, who brings over 25 years of experience in corporate finance and accounting, plus 10 years of consulting.
+
+Services include full-charge bookkeeping, expense tracking, full-charge controller services, incorporations (LLC, S Corp, and C Corp), financial consulting, training, and life insurance products, investments, and annuities.
+
+You work directly with Sandra, not a call center, and she explains every step so you understand your business better.
+
+Book an appointment at braghirolifinancialservices.com or call 415-341-3674.
+
+---------------------------------------------
+IMAGES (in this same folder)
+---------------------------------------------
+Profile picture (all platforms):  profile-picture-all-platforms.png
+LinkedIn cover:                   linkedin-cover-1128x191.png
+Facebook cover:                   facebook-cover-1640x624.png
+X header:                         x-header-1500x500.png
+Google Business cover photo:      google-cover-1024x576.png
+Instagram has no cover photo; it only uses the profile picture.
