@@ -24,7 +24,7 @@ It's plain HTML, CSS, and a little JavaScript. There's no framework and no build
 - [ ] **FORMSPREE_ID**: set up the contact form (see below).
 - [ ] **BOOKING_LINK**: add your Calendly (or similar) link (see below).
 - [ ] **Social media links**: replace the `[Social media links placeholder]` box in the footer of each page.
-- [ ] **Final logo choice**: window (current), monogram, or growth icon (see below).
+- [x] **Final logo choice**: rising-bars growth icon (chosen Nov 2026).
 - [ ] **About page details**: replace `[Additional personal background, to be added by Sandra]` in `about.html`.
 - [ ] Remove each yellow dashed "Placeholder" note once its content is filled in.
 
@@ -88,9 +88,9 @@ with, for example:
 
 ### Changing the logo
 The logo is defined only in `js/logo.js`. At the top of that file:
-- `LOGO_STYLE = 'window'`: white browser window, gold title bar, serif "B" (default)
+- `LOGO_STYLE = 'window'`: white browser window, colored title bar, serif "B"
 - `LOGO_STYLE = 'monogram'`: navy "Bf" monogram badge
-- `LOGO_STYLE = 'growth'`: rising-bar growth icon
+- `LOGO_STYLE = 'growth'`: rising-bar growth icon (current)
 - Or set `LOGO_IMAGE = 'images/logo.svg'` to use a finished logo file everywhere.
 
 If you change the logo, also update the favicons and `og-image.jpg` in `/images/`.

@@ -2,14 +2,14 @@
    LOGO — the ONE place the logo is defined.
    Every page has <span class="logo" data-logo>…</span> placeholders; this
    script fills them in. To switch designs, change LOGO_STYLE below to:
-     'window'   — white browser window, gold title bar, serif "B" (default)
+     'window'   — white browser window, colored title bar, serif "B"
      'monogram' — navy "Bf" monogram badge
-     'growth'   — rising-bar growth icon
+     'growth'   — rising-bar growth icon (current, chosen Nov 2026)
    To use a finished logo file instead, set LOGO_IMAGE to its path
    (e.g. 'images/logo.svg') and it will be used everywhere.
    ========================================================================== */
 (function () {
-  var LOGO_STYLE = 'window';
+  var LOGO_STYLE = 'growth';
   var LOGO_IMAGE = ''; // e.g. 'images/logo.svg'
   var TAGLINE = 'Bookkeeping · Business setup · Financial support';
 

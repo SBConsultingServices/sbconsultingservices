@@ -18,7 +18,7 @@ Sandra is not technical. Do all GitHub work yourself and explain everything in p
 - Keep the site plain HTML/CSS/JS. Don't add frameworks, build tools or package managers.
 - The header and footer are repeated on all 4 pages: `index.html`, `services.html`, `about.html`, `contact.html`. When either one changes, update all four pages.
 - Scope (Nov 2026): the business offers bookkeeping & accounting, business setup & advice, and insurance & investments only. Website, branding and logo design services were removed at Sandra's request, along with the Portfolio page; don't reintroduce them unless she asks.
-- The logo is defined only in `js/logo.js`.
+- The logo is defined only in `js/logo.js` (current style: `growth`, the rising-bars icon, chosen by Sandra Nov 2026). `images/favicon.svg` uses the same icon.
 - The booking link is `BOOKING_LINK` at the top of `js/main.js`.
 - The Formspree form ID goes in `contact.html`: replace `FORMSPREE_ID` in the form's action URL.
 
